@@ -1,0 +1,181 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    z-index: 1000; /* Garante que fique acima do conteúdo */
+    width:100vw;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: white;
+    height: 90px;
+}
+.header img{
+    margin-left: 137px;
+    margin-top: 7px;
+}
+.menu {
+        margin-top: 5px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 200px
+}
+.menu a {
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+        color: rgb(53, 53, 53);
+        text-decoration: none;
+}
+.menu a:hover {
+        color: #4f599d;
+}
+
+.button {
+        background-color: #4f599d;
+        align-self: center;
+        height: 37px;
+        width: 87px;
+        border-radius: 50px;
+        font-size: 17px;
+        margin-left: 8px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        color: aliceblue;
+        margin-top: 8px;
+}
+
+.img-content {
+background: 
+linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url(/examples/home/assets/imgmain.jpg);
+background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    padding: 80px 0;
+        width: 100%;
+}
+
+.img-content h2{
+        margin-left: 150px;
+        margin-top: 160px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 52px;
+        font-weight: 700;
+}
+
+.img-content p{
+        color: rgb(230, 230, 230);
+        margin-left: 150px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 28px;
+}
+.img-content button {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 50px;
+    transition: 0.4s;
+    margin-left: 150px;
+    margin-top: 30px;
+    background:transparent;
+    border: 3px solid;
+    color: white;
+    height: 40px;
+}
+
+.img-content button:hover{
+    color: white;
+    border: 3px solid #4f599d;
+    background-color: #4f599d;
+}
+
+.section-container {
+        display: flex;
+        flex-direction: row;
+}
+.left-container {
+        height: 40%;
+}
+.left-container h2{
+        margin-left: 150px;
+        margin-top: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 34px;
+        font-weight: 600;
+        color: #3f3f3f;
+}
+.left-container p{
+        margin-left: 160px;
+        font-style: italic;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: #3f3f3f;
+
+}
+.left-container ul{
+        margin-left: 160px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: #3f3f3f;
+}
+.left-container button {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 50px;
+    transition: 0.4s;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 3px solid;
+    color: white;
+    height: 40px;
+        color: white;
+    border: 3px solid #4f599d;
+    background-color: #4f599d;
+}
+.left-container button:hover {
+   filter: brightness(130%);
+}
+.right-container {
+background: 
+url(/examples/home/assets/about.jpg);
+background-size: cover;
+height: 400px;
+width: 700px;
+margin: 50px;
+}
+.slogan {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-left: 30px;
+    padding: 10px;
+}
+.slogan h2 {
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3f3f3f;
+    text-align: center;
+    margin-top: 10px;
+}
+.slogan h3 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3f3f3f;
+    text-align: center;
+    color: rgb(255, 89, 0); /* Cor interna da letra */
+    -webkit-text-stroke-width: 0.5px; /* Espessura da borda */
+    -webkit-text-stroke-color: black; /* Cor da borda */
+    margin-top: -1px;
+}
+
