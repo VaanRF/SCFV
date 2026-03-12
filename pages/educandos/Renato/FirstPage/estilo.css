@@ -1,0 +1,22 @@
+h1 {
+color: rgb(99, 15, 9) 
+}
+p {
+    font: size 30px;
+}
+h2 {
+    font-weight: 600;
+}
+h3 {
+    font-weight: 500;
+}
+h4 {font-weight: bold; 
+}
+.fundo{
+    width: 100%;
+    height: 1000px;
+    background-image: url(/QWZOIIVEUBJ4PHJD3ECZUAENUQ.jpg) ;
+}
+.fundo h6{
+    margin-top: 30px;
+}
